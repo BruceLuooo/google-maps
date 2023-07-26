@@ -5,3 +5,5 @@ export const Loading = new Loader({
 	version: 'weekly',
 	libraries: ['places'],
 });
+
+export const timestamp = Math.floor(Date.now() / 1000);
